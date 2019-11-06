@@ -1,0 +1,59 @@
+* {
+	font-family: 'Segoe UI', serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	background: #E6E7E9;
+}
+
+header, footer {
+	background: #0072BC;
+}
+
+header {
+	height: 160px;
+}
+
+.header_logo_wrap{
+	padding-top: 10px;
+}
+
+.motto_wrap{
+	padding-top: 57px;
+}
+
+.motto{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 0;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.semi_li{
+	display: none;
+}
+
+.search_wrap{
+	padding-top: 60px;
+}
+
+.header_nav{
+	height: 61px;
+}
+
+.semi_li, .semi_nav{
+	list-style: none;
+}
