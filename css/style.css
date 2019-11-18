@@ -1,5 +1,5 @@
 * {
-	font-family: 'Segoe UI', serif;
+/*	font-family: 'Segoe UI', serif;*/
 }
 
 * {
@@ -15,6 +15,7 @@ body {
 	background: #E6E7E9;
 }
 
+/*Header*/
 header, footer {
 	background: #0072BC;
 }
@@ -32,14 +33,10 @@ header {
 }
 
 .motto{
-	font-style: normal;
-	font-weight: normal;
-	font-size: 36px;
-	line-height: 0;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	color: #FFFFFF;
+    margin-bottom: 0.25rem;
+    font-size: 36px;
+    color: #fff;
+    text-align: right;
 }
 
 .semi_li{
@@ -47,13 +44,123 @@ header {
 }
 
 .search_wrap{
-	padding-top: 60px;
+	margin-bottom: 1rem;
+}
+
+ul.navbar, p.article_txt{
+    margin-bottom: 0;
 }
 
 .header_nav{
-	height: 61px;
+/*	height: 61px;*/
 }
 
 .semi_li, .semi_nav{
 	list-style: none;
+}
+
+nav li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav li a:hover,nav li a:active,nav li a:focus{
+    color: gainsboro;
+    text-decoration: none;
+}
+
+input.form-control{
+    border-radius: 0;
+    border-color: #fff;
+    height: 30px;
+}
+
+.input-group-text{
+    border-color: #fff;
+}
+
+/*Main Content*/
+.article_header, .article_txt, .article_link, .imgMainWrap{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.parent .child{
+    padding-right: 0;
+}
+
+a.article_link, a.more{
+    color: #006DC2;
+}
+
+a.article_link:hover, a.more:hover{
+    text-decoration: none;
+}
+
+.imgMainWrap{
+    padding-bottom: 20px;
+}
+.date_nick{
+    background-color: #C4C4C4;
+    width: 220px;
+    text-align: center;
+    padding: 5px;
+}
+
+.side_txt{
+    background: #fff;
+}
+
+p.events{
+    margin-bottom: 0;
+}
+
+.events, .more{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.date_nick{
+    margin-left: auto;
+}
+
+.boldText{
+    font-weight: 700;
+}
+
+.side_more button{
+    background-color: #0998C6;
+    border-radius: 0;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: white;
+    font-size:16pt;
+} 
+
+.side_more{
+    justify-content: flex-end;
+    color: white;
+}
+
+
+/*Footer*/
+
+.footer_wrap{
+    padding: 15px;
+}
+
+.footer_text_wrap{
+    margin-left: 70px;
+    color: #fff;
+    font-weight: 200;
+}
+
+p.footerText{
+    text-align: center;
+    margin-bottom: 0;
 }

@@ -16,21 +16,36 @@
 					<div class="header_logo_wrap col-2 align-self-center">
 						<a href="index.html"><img class="header_logo" alt="Logo" src="img/logo.png"></a>
 					</div>
-					<div class="motto_wrap col-7 ">
-						<p class="motto">УЖЕ 21 ГОД ВАС ПРИВЕТСТВУЕТ</p>
+					<div class="col-7 align-self-end">
+						  <p class="motto">УЖЕ 21 ГОД ВАС ПРИВЕТСТВУЕТ</p>
 					</div>
-					<div class="search_wrap col-3">
-						<form action="#" method="get">
-							<input name="search_bar" placeholder="Поиск по сайту" type="search">
-							<input class="search_img" name="search" type="submit">
-						</form>
+					<div class="col-3 align-self-end">
+                        <div class="search_wrap">
+                            <form action="#" method="get">
+                            <div class="input-group input-focus"> 
+                                <input type="search" placeholder="Поиск по сайту" class="form-control border-left-0">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-white"><i class="fa fa-search"></i></span>
+                                  </div>
+                                </div>
+                            </form>
+<!--
+                            <form action="#" method="get">
+                                <input name="search_bar" placeholder="Поиск по сайту" type="search">
+                                <input class="search_img" name="search" type="submit">
+                            </form>
+-->
+                        </div>
 					</div>
 				</div>
-				<nav class="header_nav">
-					<ul class="main_nav row">
+
+				<nav class="header_nav mt-2">
+					<ul class="navbar row">
 						<li class="semi_nav col-2"><a href="#"><span class="menu_block">ИНФОРМАЦИЯ</span></a>
 							<ul class="semi_nav">
-								<li class="semi_li"><a href="#">ВОДОЕМЫ</a></li>
+								<li class="semi_li">
+                                    <a href="#">ВОДОЕМЫ</a>
+                                </li>
 								<li class="semi_li"><a href="#">РЫБЫ</a></li>
 								<li class="semi_li"><a href="#">СНАСТИ</a></li>
 								<li class="semi_li"><a href="#">НАСАДКИ</a></li>
@@ -67,15 +82,16 @@
 						</li>
 					</ul>
 				</nav>
+
 			</div>
 		</header>
 		<main>
 			<div class="main_wrap content">
 				<div class="container">
-					<div class="row">
+					<div class="row mt-4">
 						<div class="main_news col-8">
-							<article class="article">
-								<h3 class="article_header">НАШЕМУ ДОМИКУ ИСПОЛНЯЕТСЯ 21 ГОД!</h3>
+							<div class="article bg-white parent">
+								<h3 class="article_header boldText">НАШЕМУ ДОМИКУ ИСПОЛНЯЕТСЯ 21 ГОД!</h3>
 								<p class="article_txt">
 									Празднования пройдут в кафе "Голосієво" на станции проката катамаранов и лодок. Ст. метро
 									Голосеевская _
@@ -87,10 +103,12 @@
 																 на
 																 ФОРУМЕ...
 								</a>
-								<img alt="image" src="img/image1.png">
+                                <div class="imgMainWrap text-center">
+								    <img alt="image" src="img/image1.png">
+                                </div>
 								<p class="date_nick">20.06.2018 оРгКоМиТеТъ</p>
-							</article>
-							<article class="article">
+							</div>
+							<div class="subArticle bg-white">
 								<p class="article_txt">Азарт! Вот, что объединяет все живое!
 													   Азарт _ это игра! Оттого мы с таким удовольствием играем в эту короткую игру
 													   под
@@ -124,9 +142,11 @@
 									дальше,
 									как Бог даст :_))
 								</p>
-								<p class="date_nick">22.06.1998 Webmaster Vic</p>
-							</article>
-							<article class="article">
+                                <div>
+								    <p class="date_nick">22.06.1998 Webmaster Vic</p>
+                                </div>
+							</div>
+							<div class="subArticle bg-white">
 								<p class="article_txt">РЫБАЦЮГИ КИЕВА! По сложившейся традиции в г.Киеве каждый ЧЕТВЕРГ в 18_00 при
 													   выходе
 													   со станции метро "ДНЕПР", в пивбаре_стекляшке "Оболонь" проходят встречи
@@ -136,44 +156,45 @@
 													   живую
 													   _ приглашаются
 													   ВСЕГДА:))</p>
+                                
 								<p class="date_nick">22.06.1998 Webmaster Vic</p>
-							</article>
+							</div>
 						</div>
 						<div class="side_news col-4">
 							<h3 class="side_header">НОВОСТИ</h3>
 							<div class="side_txt">
-								<p class="events">14 апреля на Русановском канале г. Киева состоялся наш ежегодный весенний
+                                <p class="events"><span class="boldText">14 апреля</span> на Русановском канале г. Киева состоялся наш ежегодный весенний
 												  Фестиваль по
-												  отпусканию рыбы, пойманной фидером, _ ПЛОТВА_2019!
+                                    отпусканию рыбы, пойманной фидером, _ <span class="boldText">ПЛОТВА_2019!</span>
 								</p>
 								<a class="more" href="#">Подробнее...</a>
 								<p class="date_nick">20.06.2018 оРгКоМиТеТъ</p>
 							</div>
 							<div class="side_txt">
-								<p class="events">26 мая на озере Подкова около с.Рожны состоялся детский рыболовный фестиваль по
-												  поплавчанке _ Ивасик_Карасик_2019!
+                                <p class="events"><span class="boldText">26 мая</span> на озере Подкова около с.Рожны состоялся детский рыболовный фестиваль по
+                                    поплавчанке _ <span class="boldText">Ивасик_Карасик_2019!</span>
 								</p>
 								<a class="more" href="#">Подробнее...</a>
 								<p class="date_nick">20.06.2018 оРгКоМиТеТъ</p>
 							</div>
 							<div class="side_txt">
-								<p class="events">14 апреля на Русановском канале г. Киева состоялся наш ежегодный весенний
+                                <p class="events"><span class="boldText">14 апреля</span> на Русановском канале г. Киева состоялся наш ежегодный весенний
 												  Фестиваль по
-												  отпусканию рыбы, пойманной фидером, _ ПЛОТВА_2019!
+                                    отпусканию рыбы, пойманной фидером, _ <span class="boldText">ПЛОТВА_2019!</span>
 								</p>
 								<a class="more" href="#">Подробнее...</a>
 								<p class="date_nick">20.06.2018 оРгКоМиТеТъ</p>
 							</div>
 							<div class="side_txt">
-								<p class="events">3 февраля 2019 года на киевском заливе "Собаче гирло" состоялся наш ежегодный
+                                <p class="events"><span class="boldText">3 февраля 2019</span> года на киевском заливе "Собаче гирло" состоялся наш ежегодный
 												  Зимний
-												  Кубок по ловле рыбы со льда _ ПИНГВИН_2019!
+                                    Кубок по ловле рыбы со льда _ <span class="boldText">ПИНГВИН_2019!</span>
 								</p>
-								<a class="side_txt_more" href="#">Подробнее...</a>
+								<a class="more" href="#">Подробнее...</a>
 								<p class="date_nick">20.06.2018 оРгКоМиТеТъ</p>
 							</div>
-							<div class="side_more">
-								<a href="#">Больше ></a>
+							<div class="side_more d-flex">
+								<button class="btn" href="#">Больше ></button>
 							</div>
 						</div>
 					</div>
@@ -182,14 +203,19 @@
 		</main>
 		<footer class="footer_wrap">
 			<div class="container">
-				<div class="footer_logo_wrap">
-					<a href="#"><img class="footer_logo" alt="Logo" src="img/logo.png"></a>
-				</div>
-				<p class="footer_copyright">
-					(c) ДОМ РЫБАКА _ 1998_2019
-					e_mail: webmaster@fishing.kiev.ua
-				</p>
-			</div>>
+                <div class="row align-items-center justify-content-start">
+                    <div class="footer_logo_wrap">
+                        <a href="#"><img class="footer_logo" alt="Logo" src="img/logo.png"></a>
+                    </div>
+                    <div class="footer_text_wrap">
+                        <p class="footerText">
+                            (c) ДОМ РЫБАКА - 1998-2019</p>
+                        <p class="footerText">
+                            e-mail: webmaster@fishing.kiev.ua
+                        </p>
+                    </div>
+                </div>
+            </div>
 		</footer>
 	</body>
 </html>
