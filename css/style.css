@@ -86,7 +86,7 @@ input.form-control {
 }
 
 /*Main Content*/
-.article_header, .article_txt, .article_link, .imgMainWrap {
+.article_header, .article_txt, .article_link, .img_main_wrap {
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -141,11 +141,15 @@ p.events {
 .side_more button {
 	background-color: #0998C6;
 	border-radius: 0;
-	padding: 10px;
-	padding-left: 45px;
-	padding-right: 45px;
+	border: none;
+	padding: 10px 45px;
 	color: white;
 	font-size: 16pt;
+}
+
+.side_more button:hover {
+	color: gainsboro;
+	text-decoration: none;
 }
 
 .side_more {
